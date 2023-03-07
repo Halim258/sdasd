@@ -10,20 +10,20 @@
 
 header {
   background-color: deepskyblue;
-  width: 100%;
+  width:100%;
   position: fixed;
   z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 200px;rds
+  padding:12px 200px;
 }
 
 .logo {
-  color: aliceblue;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.8em;
+  color:aliceblue;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:1.8em;
 }
 
 .navigation a {
@@ -202,4 +202,33 @@ section {
 
 .cards{
   background-color: rgba(135, 206, 250, 0.272);
+}
+.content.icon{
+  font-size: 4.5em;
+
+}
+.content .info h3{
+  color: black
+}
+.content.info p {
+  font-size: 1.5em;
+}
+.footer{
+  background-color:black;
+  color:antiquewhite;
+  padding:2em;
+  display:flex;
+  justify-content:space-between;
+}
+.footer-title{
+  font-size: 1.3em;
+  font-weight: 600;
+
+}
+.footer-title .span{
+  color: aqua;
+}
+.footer .social-icons a{
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
 }
