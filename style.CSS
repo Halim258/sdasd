@@ -23,7 +23,7 @@ header {
   color:aliceblue;
   text-transform:uppercase;
   font-weight:700;
-  font-size:1.8em;
+  font: size 1.9em;
 }
 
 .navigation a {
